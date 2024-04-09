@@ -28,9 +28,10 @@ async function fetchProducts() {
 document.addEventListener('DOMContentLoaded', () => {
     fetchProducts()
 })
- const form = document.querySelector('.form')
+ const form = document.querySelector('form')
  form.addEventListener('submit', async (ev) => {
     ev.preventDefault()
+    
     const productData = {
         name: document.querySelector('#name').value,
         quantity: document.querySelector('#quantity').value,
