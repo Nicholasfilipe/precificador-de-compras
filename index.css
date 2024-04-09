@@ -5,6 +5,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .form{
@@ -16,7 +17,7 @@ body{
     color: white;
     background-color: rgba(19, 61, 179, 0.836);
     height: 300px;
-    width: 255px;
+    width: 400px;
     border-radius: 5%;
     gap: 20px;
     border: solid rgb(0, 0, 0) 2px;
