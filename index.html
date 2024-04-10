@@ -12,25 +12,28 @@
     <title>Precificador de compras</title>
 </head>
 <body>
-    <h2>adicionar Produto</h2>
-  <p class="form">    
+    
+  <div class="form"> 
+    <h1>Adicionar Produto</h1>     
     <label for="name">Produto:</label>
-    <input type="text" id="name">
+    <input type="text" id="name" placeholder="nome do produto!">
     <label for="quantity">Qantidade:</label>
-    <input type="text" id="quantity">
+    <input type="text" id="quantity" placeholder="Qauntidade de produto!">
     <label for="value">valor:</label>
-    <input type="text" id="value">
+    <input type="text" id="value" placeholder="Valor do produto!">
     <button onclick="addProduct()">Adicionar</button>
-  </p>
+  </div><br><br><br>
   <div class="form-remove">
   <h2>Remover Produto</h2>
   <p>
-    <label for="numberToRemove">Nome:</label>
+    <label for="nameToRemove">Nome:</label>
     <input type="text" id="nameToRemove">
     <button onclick="removeProduct()">Remover</button>
   </p>
   <h2>produtos:</h2>
-  <section id="products"></section>
+  <section id="products">
+    
+    </section>
 
 </div>
 </body>

@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     color: white;
     background-color: rgba(19, 61, 179, 0.836);
-    height: 300px;
+    height: 350px;
     width: 400px;
     border-radius: 5%;
     gap: 20px;
@@ -52,15 +52,31 @@ button{
     padding: 5%;
     display: flex;      
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     color: white;
     background-color: rgba(19, 61, 179, 0.836);
-    height: 300px;
+    height: 600px;
     width: 400px;
     border-radius: 5%;
     gap: 20px;
     border: solid rgb(0, 0, 0) 2px;
     
 }
+#products{
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#products::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(19, 61, 179, 0.836);
+    border-radius: 10px;
+}
 
+#products::-webkit-scrollbar-thumb{
+    background-color: rgb(5, 87, 18);
+    border-radius: 10px;
+
+
+}
